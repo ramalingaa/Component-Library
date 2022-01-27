@@ -1,0 +1,249 @@
+
+/* avatar component start */
+
+.avatar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .avatar{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    } 
+}
+@media only screen and (min-width: 1020px) {
+    .avatar{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    } 
+}
+
+/* badge component start */
+
+.badge-container{
+    position: relative;
+    background-color: transparent;
+    /* border: 1px solid grey; */
+    padding: 1rem;
+    display: inline-block;
+}
+.badge-icon{
+    font-size: 1.5rem;
+
+}
+.badge-text{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 0.3rem;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 15px;
+}
+
+/* button component start */
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.btn-contained {
+    background-color: #FFAC63;
+    color: black;
+    
+    padding: 10px 1rem;
+    text-transform: uppercase;
+    min-width: 64px;
+    height: 36px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-contained:hover {
+    background-color: #ff9538;
+}
+.btn-contained:active {
+    background-color: #ff8011;
+}
+
+
+/* container button 
+with icons */
+
+.btn-icon {
+    font-size:1rem;
+    padding: 0 0.5rem;
+}
+.btn-contained-w-icon {
+    background-color: #FFAC63;
+    color: black;
+    
+    padding: 10px 1rem;
+    text-transform: uppercase;
+    min-width: 64px;
+    height: 36px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-contained-w-icon:hover {
+    background-color: #ff9538;
+}
+.btn-contained-w-icon:active {
+    background-color: #ff8011;
+}
+/* outlined button */
+
+.btn-outlined {
+    background-color: white;
+    color: black;
+    padding: 10px 1rem;
+    text-transform: uppercase;
+    min-width: 64px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-outlined:hover {
+    background-color:rgb(236, 234, 234);
+}
+.btn-outlined:active {
+    background-color:rgb(207, 205, 205);
+}
+/* text only button */
+
+.btn-text { 
+    background-color: white;
+    color: black;
+    padding: 10px 0.5rem;
+    text-transform: uppercase;
+    min-width: 64px;
+    height: 36px;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-text:hover {
+    background-color:rgb(236, 234, 234);
+}
+.btn-text:active {
+    background-color:rgb(207, 205, 205);
+}
+
+/* button link */
+
+.btn-link{
+    background-color: #FFAC63;
+    color: black;
+    padding: 10px 1rem;
+    text-transform: uppercase;
+    min-width: 64px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.btn-link:hover {
+    background-color: #ff9538;
+}
+.btn-link:active {
+    background-color: #ff8011;
+}
+
+/* floating action buttons */
+
+.btn-icon-fab{
+    font-size: 1.5rem;
+}
+.btn-fab{
+    background-color: #FFAC63;
+    border: 0;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-fab:hover {
+    background-color: #ff9538;
+}
+.btn-fab:active {
+    background-color: #ff8011;
+}
+    /* fab mini */
+.btn-icon-fab-mini {
+    font-size: 1rem;
+}
+.btn-fab-mini {
+    background-color: #FFAC63;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-fab-mini:hover {
+    background-color: #ff9538;
+}
+.btn-fab-mini:active {
+    background-color: #ff8011;
+}
+
+/* fab button extended */
+.btn-Nicon-fab-extended{
+    display: none;
+}
+.btn-fab-extended {
+    background-color: #FFAC63;
+    border: 0;
+    padding: 10px 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn-fab-extended:hover {
+    background-color: #ff9538;
+}
+
+.btn-fab-extended:active {
+    background-color: #ff8011;
+}
+
+
+/* fab button extended with icon */
+
+.btn-icon-fab-extended{
+    padding: 0 0.8rem 0 0;
+}
+.btn-fab-extended-w-icon{
+    background-color: #FFAC63;
+    border: 0;
+    padding: 10px 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn-fab-extended-w-icon:hover {
+    background-color: #ff9538;
+}
+.btn-fab-extended-w-icon:active {
+    background-color: #ff8011;
+}
+
+
+
+

@@ -5,36 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="global.css" />
      <link rel="stylesheet" href="cards.css" />
     <title>Cards Component</title>
 </head>
 <body>
-    <div class="card-container">
-        <div class="card-badge">Card badge</div>
-        <div class="card-dismiss"><i class="fas fa-times"></i></div>
-        <div class="card-bg-container">
-            <div class="card-text-overlay">
-                 <h2 class="card-header">Our Changing Planet</h2>
-                <small class="card-author">by Kurt Wagner</small>
+    <div class="card-container card-shadow">
+        <div claass="card-badge-container">
+            <i class="fas fa-times card-dismiss"></i>
+            <p class="card-badge">Card-Badge</p>
+        </div>
+        <div class="card-horizontal">
+            <div class="card-bg-container card-hz-bg-align">
+                <p class="card-text-overlay">Text overlay</p>
+            </div>
+            <div class="card-text-container">
+                <h2 class="card-title">Card Title</h2>
+                <p class="card-description">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
             </div>
         </div>
-        <div class="card-text-container">
-            <div class="card-header-container">
-                <!-- <h2 class="card-header">Our Changing Planet</h2>
-                <small class="card-author">by Kurt Wagner</small> -->
-                <p class="card-paragraph">Visit ten places on our planet that are undergoing the biggest changes today.</p>
-            </div>
-            <div class="card-footer-container">
-                <button class="card-button-align">Read</button>
-                <button class="card-button-align">Bookmark</button>
-                <i class="far fa-heart card-icon"></i>
-                <i class="fas fa-share-alt card-icon"></i>
-                <i class="fas fa-ellipsis-v card-icon elipsis"></i>
-            </div>
+        <div class="card-footer-container">
+            <button class="btn-text">Read More</button>
+            <button class="btn-text">Learn More</button>
         </div>
-    </div>
-    <div class="card-container">
-        
     </div>
 </body>
 </html>
