@@ -46,23 +46,23 @@ with icons */
 }
 /* text only button */
 
-.text {
+.btn-text {
      border: transparent;
 }
-.text:hover {
+.btn-text:hover {
     background-color:rgb(236, 234, 234);
 }
-.text:active {
+.btn-text:active {
     background-color:rgb(207, 205, 205);
 }
 
 /* button link */
 
-.link{
+.btn-link{
     text-decoration: none;
     height:max-content
 }
-.link:hover {
+.btn-link:hover {
     background-color: #ff9538;
 }
 .btn-link:active {
