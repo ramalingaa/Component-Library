@@ -1,12 +1,12 @@
 .round-img{
     border-radius:50%;
-    width: 150px;
-    height: 150px;
+    width: 9.3rem;
+    height: 9.3rem;
 }
 .square-img{
-    border-radius:10px;
-    width: 150px;
-    height: 150px;
+    border-radius:0.625rem;
+    width: 9.3rem;
+    height: 9.3rem;
 }
 .res-img{
     height: auto;

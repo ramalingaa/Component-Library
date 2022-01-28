@@ -1,20 +1,20 @@
 .avatar{
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 .sm{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 .md{
-    width: 70px;
-    height: 70px;
+    width: 4.735rem;
+    height: 4.735rem;
 }
 .lg{
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
 }
 .square{
-    border-radius: 5px;
+    border-radius: 0.31rem;
 }
