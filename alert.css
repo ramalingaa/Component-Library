@@ -10,7 +10,7 @@ div{
 .alert{
     padding: 1rem 1.5rem;
     /* background-color: red; */
-    border-radius: 3px;
+    border-radius: 0.31rem;
 }
 .primary{
     background-color:var(--alert-primary);
