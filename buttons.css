@@ -1,0 +1,131 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+.btn{
+    background-color: rgb(158, 133, 133);
+    color: black;
+    padding: 0.625rem 1rem;
+    text-transform: uppercase;
+    min-width: 4rem;
+    height: 2.25rem;
+    border: 0;
+    border-radius: 0.31rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* container button 
+with icons */
+
+.btn-icon {
+    font-size:1rem;
+    padding: 0 0.5rem;
+}
+
+/* outlined button */
+
+.outlined {
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.outlined:hover {
+    border: 1px solid rgb(66, 65, 65);
+    opacity: 1;
+}
+.outlined:active {
+    background-color:rgb(207, 205, 205);
+}
+/* text only button */
+
+.btn-text {
+     border: transparent;
+}
+.btn-text:hover {
+    background-color:rgb(236, 234, 234);
+}
+.btn-text:active {
+    background-color:rgb(207, 205, 205);
+}
+
+/* button link */
+
+.btn-link{
+    text-decoration: none;
+    height:max-content
+}
+.btn-link:hover {
+    background-color: #ff9538;
+}
+.btn-link:active {
+    background-color: #ff8011;
+}
+
+/* floating action buttons */
+
+.btn-icon-fab{
+    font-size: 1.5rem;
+}
+.btn-fab{
+    background-color: #FFAC63;
+    border: 0;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-fab:hover {
+    background-color: #ff9538;
+}
+.btn-fab:active {
+    background-color: #ff8011;
+}
+    /* fab mini */
+.btn-icon-fab-mini {
+    font-size: 1rem;
+}
+.mini {
+    padding: 0.5rem;
+    
+}
+.mini:hover {
+    background-color: #ff9538;
+}
+.mini:active {
+    background-color: #ff8011;
+}
+
+/* fab button extended */
+.btn-Nicon-fab-extended{
+    display: none;
+}
+.extended {
+    border-radius: 999rem;
+   
+}
+.extended:hover {
+    background-color: #ff9538;
+}
+
+.extended:active {
+    background-color: #ff8011;
+}
+
+
+/* fab button extended with icon */
+
+.btn-icon-fab-extended{
+    padding: 0 0.8rem 0 0;
+}
+
+.disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
