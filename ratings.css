@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rating{
+    margin : 0 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: inline-block;
+}
+.rating:hover {
+    background-color: rgb(233, 145, 31)
+}
+.rating-sm{
+    margin : 0 0.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.rating-lg{
+    margin : 0 0.2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+div{
+    margin: 2rem;
+}
