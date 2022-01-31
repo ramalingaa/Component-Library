@@ -18,7 +18,11 @@ ul.lists>li {
     font-weight: 400;
 
 }
-ul.lists>li:hover {
+.lists>li>span:hover {
+    color: #93C5FD;
+    
+}
+.lists>li> ul> li> span:hover {
     color: #93C5FD;
     
 }
