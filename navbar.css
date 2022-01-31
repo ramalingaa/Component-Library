@@ -44,15 +44,24 @@
 }
 .nav-icons {
     font-size: 1.5rem;
+    margin: 0 0.5rem;
+    padding: 0.2rem 0.5rem;
     
 }
 
 .nav-search {
-    /* min-width: 20rem; */
+    width: 15rem;
     padding: 0.1rem 0.1rem 0.1rem 0.5rem;
     margin: 0 1rem;
-    outline: 1px solid rgb(30, 31, 36)
+    outline: 1px solid rgb(30, 31, 36);
 }
 .nav-search:focus {
     outline: 1px solid rgb(105, 120, 167)
+}
+.btn-nav{
+    padding: 0.4rem 1rem;
+    margin: 0 1rem;
+    border-radius: 0.31rem;
+    text-transform: uppercase;
+    /* border: 0; */
 }
