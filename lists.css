@@ -1,0 +1,54 @@
+
+.lists {
+    list-style-type: none;
+    margin: 1rem;
+    line-height:1.5rem;
+    width: 240px;
+    border: 1px solid var(--border-color-white);
+
+}
+ul.lists>li {
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 400;
+
+}
+.lists>li>span:hover {
+    color: var(--text-hover-primary);
+    
+}
+.lists>li> ul> li> span:hover {
+    color: var(--text-hover-primary);
+    
+}
+.list-title{
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--border-color-white);
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+.list-nested {
+    list-style-type: none;
+}
+ul.list-nested > li {
+    padding: 0.6rem 1rem 0 1rem;
+
+}
+
+.check-lists {
+    list-style-type: none;
+    margin: 1rem;
+    line-height:1.5rem;
+    width: 240px;
+    border: 1px solid var(--border-color-white);
+}
+.check-lists li {
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 400;
+}
+.check-lists > li > input {
+    margin: 0 0.7rem 0 0;
+}
