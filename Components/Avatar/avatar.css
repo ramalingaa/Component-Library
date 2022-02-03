@@ -2,6 +2,7 @@
     border-radius: 50%;
     width: 3.125rem;
     height: 3.125rem;
+    object-fit: cover;
 }
 .sm{
     width: 3.125rem;
