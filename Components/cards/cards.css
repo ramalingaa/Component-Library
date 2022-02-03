@@ -1,0 +1,68 @@
+
+.card-container{
+    color: rgb(8, 8, 8);
+    width: 20rem;
+    position: relative;
+    border-radius: 0.31rem;
+    height: max-content;
+    text-align: left;
+    background-color:rgb(255, 254, 254);
+
+}
+.card-shadow{
+    box-shadow: 0.625rem 0.625rem 0.625rem  grey
+}
+
+.card-text-container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+.card-footer-container{
+    border-top: 1px solid rgb(216, 211, 211);
+    display: flex;
+}
+
+.card-dismiss{
+    position: absolute;
+    right: 0.625rem;
+    top: 0.625rem;
+    cursor: pointer;
+    z-index: 1;
+}
+.card-badge{
+    position: absolute;
+    left: 0;
+    top: 0rem;
+    background-color: rgb(29, 114, 226);
+    padding: 0.3rem 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    cursor: pointer;
+    z-index: 1;
+    color: white;
+}
+.card-bg-container{
+    background-image: url("https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg");
+    background-size: cover;
+    height:12.5rem;
+    position: relative;
+
+}
+
+.card-text-overlay{
+    position: absolute;
+    bottom: 0.625rem;
+    left: 0.625rem;
+    color: white;
+}
+.card-horizontal{
+    display: flex;
+}
+.card-hz-bg-align{
+    height: auto;
+    width: 38rem;
+    background-repeat: none;
+    border-top-left-radius: 0.31rem;
+    border-top-right-radius: 0.31rem;
+}

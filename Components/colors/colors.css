@@ -1,0 +1,15 @@
+:root{
+    --primary-color-blue: #3b82f6;
+    --primary-color-red: #EF4444;
+    --primary-color-green: #10B981;
+    --primary-color-orange: #f59e0b;
+    --primary-color-main: #f95b3d;
+    --border-color-white: #e5e7eb; 
+    --text-hover-primary: #60A5FA;
+    --alert-primary: #6366F1;
+    --alert-error: #F44336;
+    --alert-success: #4CAF50;
+    --alert-warning: #FF9800;
+    --text-color-whitesmoke: whitesmoke;
+    --div-background-color: #e8eaec;
+}
