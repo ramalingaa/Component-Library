@@ -13,19 +13,16 @@
     justify-content: center;
     align-items: baseline;
     gap: 1rem;
+    position: relative;
 
 }
 .example-vertical {
     display: flex;
     flex-direction: column;
 }
-/* .example-container > div {
-    margin:0.5rem auto;
+.example-code-container {
+    padding: 1.5rem 0;
 }
-
-.example-container > a {  
-    margin: 1rem 0;
-} */
 a{
     text-decoration: none;
     color: inherit;
@@ -55,4 +52,61 @@ a{
 .footer-icon {
     padding:0 0.3rem;
     font-size: 0.7rem;
+}
+.color-box {
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+}
+
+ /* nav bar css  */
+ .navbar {
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: baseline;
+    color: var(--primary-color-main);
+}
+.navbar-search {
+    position: relative;
+
+}
+.navbar-cart {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+.i-text {
+    padding: 0.5rem 0 0.5rem 3rem;
+    border-radius: 0.31rem;
+    width: 15rem
+}
+.search-icon {
+    position: absolute;
+    top: 30%;
+    left: 1rem;
+    color: inherit;
+}
+.nav-icon {
+    font-size: 1.5rem;
+    padding: 0 0.3rem;
+    cursor: pointer;
+}
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color-main);
+}
+.nav-logo {
+    padding: 0 0.5rem 0 0;
 }
