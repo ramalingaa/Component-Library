@@ -5,11 +5,11 @@
 
 .h2{
     font-size: 2rem;
-    line-height:2.5rem;
+    line-height:3rem;
 }
 .h3{
     font-size: 1.5rem;
-    line-height:2rem
+    line-height:2.25rem
 }
 .h4{
     font-size: 1rem;
@@ -41,11 +41,11 @@
 }
 .text-large {
     font-size: 2rem;
-    line-height:2.5rem
+    line-height:3rem
 }
 .text-medium {
     font-size: 1.5rem;
-    line-height:2rem
+    line-height:2.25rem
 }
 .text-normal {
     font-size: 1rem;
