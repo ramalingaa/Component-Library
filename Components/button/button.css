@@ -1,7 +1,7 @@
 
 .btn{
     padding:  1rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     min-width: 4rem;
     height: max-content;
     border: 0;
