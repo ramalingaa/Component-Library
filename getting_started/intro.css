@@ -14,6 +14,7 @@
     align-items: baseline;
     gap: 1rem;
     position: relative;
+    flex-wrap: wrap;
 
 }
 .example-vertical {
@@ -44,6 +45,7 @@ a{
 .section-footer {
     display: flex;
     justify-content: space-between;
+    padding: 1rem 0;
 }
 .section-footer > a {
     text-decoration: none;
@@ -51,10 +53,124 @@ a{
 }
 .footer-icon {
     padding:0 0.3rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 .color-box {
     width: 8rem;
     height: 8rem;
     text-align: center;
+}
+.example-code-container > iframe {
+    width: 100%; 
+    height: max-content; 
+    border:0; 
+    transform: scale(1);
+     overflow:auto;
+}
+.h3 {
+    padding: 1rem 0 ;
+}
+
+/* responsive css starts here */
+
+@media only screen and (max-width:900px){
+    .side-bar {
+        display: none;
+    }
+    .example-code-container {
+        display: none;
+    }
+    .main-container {
+        width: 90%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .navbar-doc {
+        padding: 1rem;
+    }
+    .h2 {
+        font-size: 1.8rem;
+        line-height: 2.25rem;
+        font-weight: bold;
+    }
+    .h3 {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        font-weight: bold;
+        padding: 1rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width:721px){
+    .side-bar {
+        display: none;
+    }
+    .example-code-container {1
+        display: none;
+    }
+    .main-container {
+        width: 90%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .navbar-doc {
+        padding: 1rem;
+    }
+    .navbar-doc > ul >li {
+        display: inline-block;
+        padding: 0 0.8rem;
+    }
+    .main-wrapper > p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 300;
+    }
+    .h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+    .h3 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: bold;
+        padding: 0.5rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width:410px){
+    .side-bar {
+        display: none;
+    }
+    .example-code-container {
+        display: none;
+    }
+    .main-container {
+        width: 90%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .navbar-doc {
+        padding: 1rem;
+    }
+    .navbar-doc > ul >li {
+        display: inline-block;
+        padding: 0 0.8rem;
+    }
+    .main-wrapper > p{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+    }
+    .h2 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: bold;
+    }
+    .h3 {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        font-weight: bold;
+        padding: 0.5rem 0 0 0;
+    }
 }
