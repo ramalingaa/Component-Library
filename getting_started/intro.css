@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 .example-code-container {
-    padding: 1.5rem 0;
+    margin: 1.5rem 0;
 }
 a{
     text-decoration: none;
