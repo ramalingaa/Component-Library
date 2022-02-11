@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 .rating {
     margin : 0 0.2rem;
     font-size: 1.5rem;
@@ -9,7 +6,7 @@
     display: inline-block;
 }
 .rating:hover {
-    background-color: rgb(233, 145, 31)
+    background-color: var(--main-black-color)
 }
 .rating-sm {
     margin : 0 0.2rem;
@@ -21,6 +18,4 @@
     font-size: 2rem;
     cursor: pointer;
 }
-div {
-    margin: 2rem;
-}
+
