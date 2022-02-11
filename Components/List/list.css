@@ -3,7 +3,7 @@
     list-style-type: none;
     line-height:1.5rem;
     width: 240px;
-    background-color: white;
+    background-color: var(--white-color);
 
 }
 ul.lists>li {
@@ -43,9 +43,9 @@ ul.list-nested > li {
     list-style-type: none;
     margin: 1rem;
     line-height:1.5rem;
-    width: 240px;
+    width: 15rem;
     border: 1px solid var(--border-color-white);
-    background-color: white;
+    background-color: var(--white-color);
 }
 .check-lists li {
     padding: 0.6rem 1rem;
