@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../getting_started/intro.css" />
+    <title>Navbar</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-doc">
+            <h2 class="nav-title">RAGA UI</h2>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../getting_started/intro.html">Docs</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <aside class="side-bar">
+            <ul class="lists">
+                <p class="list-title">Getting Started</p>
+                <li><a href="../../getting_started/intro.html">Introduction</a></li>
+                <li><a href="../../getting_started/color.html">Colors</a></li>
+                <li><a href="../../getting_started/typography-doc.html">Typography</a></li>
+                <li><a href="../../getting_started/conclusion.html">Conclusion</a></li>
+            </ul>
+            <ul class="lists">
+                <p class="list-title">Components</p>
+                <li><a href="../avatar/Avatar.html">Avatar</a></li>
+                <li><a href="../alert/alert.html">Alert</a></li>
+                <li><a href="../badge/badge.html">Badge</a></li>
+                <li><a href="../button/button.html">Button</a></li>    
+                <li><a href="../cards/cards.html">Card</a></li>
+                <li><a href="../grid/grid.html">Grid</a></li>
+                <li><a href="../imag/image.html">Image</a></li>
+                <li><a href="../input/input.html">Input</a></li>
+                <li><a href="../lists/lists.html">List</a></li>
+                <li><a href="../Model/model.html">Modal</a></li>
+                <li><a href="navbar.html">Nav-bar</a></li>
+                <li><a href="../ratings/ratings.html">Rating</a></li>
+                <li><a href="../snackbar/snackbar.html">Toast</a></li>
+                <li><a href="../typography/typography.html">Utilities</a></li>
+            </ul>
+        </aside>
+        <section class="main-wrapper">
+            
+                <h2 class="h2">Navigation bar</h2>
+                <p class="intro-text">Navigation bar is a link to appropriate sections/pages in a website that helps readers in traversing the online document.</p>
+                <hr/>
+                <h3 class="h3">Simple Nav-Bar</h3>
+                <div class="example-container">
+                    <nav class="navbar ">
+                        <div class="navbar-logo">
+                            <i class="fas fa-meteor nav-logo"></i>
+                            <h2>Meteorite </h2>
+                        </div>
+                        <div class="navbar-search">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" class="i-text" placeholder="Search for products, brands and more"/>
+                        </div>
+                        <div class="navbar-cart">
+                            <button class="btn primary-main">Login</button>
+                                <a href="#"><i class="far fa-heart nav-icon"></i> Wishlist</a>
+                                <a href="#"><i class="fas fa-cart-plus nav-icon"></i> Cart</a>
+                            
+                        </div>
+                    </nav>
+                </div>
+                <div class="example-code-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28247%2C247%2C248%2C1%29&t=night-owl&wt=none&l=javascript&width=1211&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%252F%2520Using%2520nav%2520bar%2520class%2520names%250A%250A%2520%2520%2520%2509%2509%2509%2509%2509%2509%2509%2520%253Cnav%2520class%253D%2522navbar%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-meteor%2520nav-logo%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ESurplus%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2520search-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522i-text%2522%2520placeholder%253D%2522Search%2520for%2520products%252C%2520brands%2520and%2520more%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520nav-icon%2522%253E%253C%252Fi%253E%2520Wishlist%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2520nav-icon%2522%253E%253C%252Fi%253E%2520Cart%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253C%252Fnav%253E%250A"
+                    style="width: 100%; height: 381px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                <hr/>
+                
+                
+                <div class="section-footer">
+                    <a href="../model/model.html" ><i class="fas fa-arrow-circle-left footer-icon"></i>Modal</a>
+                    <a href="../ratings/ratings.html" >Rating<i class="fas fa-arrow-circle-right footer-icon"></i></a>
+                </div>
+        </section>
+    </main>
+</body>
+</html>
