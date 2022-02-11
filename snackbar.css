@@ -5,7 +5,7 @@
     position: relative;
 }
 .snackbar {
-    background-color: #323232 ;
+    background-color: var(--main-black-color) ;
     color: var(--main-white-color);
     padding: 0.5rem 0.9rem;
     position: absolute;
@@ -15,7 +15,7 @@
     z-index: 9999;
 }
 .toastbar {
-    background-color: #323232 ;
+    background-color: var(--main-black-color) ;
     color: var(--main-white-color);
     padding: 0.5rem 0.9rem;
     position: absolute;
