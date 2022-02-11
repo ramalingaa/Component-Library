@@ -12,4 +12,7 @@
     --alert-warning: #FF9800;
     --text-color-whitesmoke: whitesmoke;
     --div-background-color: #e8eaec;
+    --outlined-btn-active:rgb(207, 205, 205);
+    --outlined-btn-hover: rgb(66, 65, 65);
+    --text-btn-hover: rgb(236, 234, 234);
 }
