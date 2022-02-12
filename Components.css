@@ -1,9 +1,10 @@
 @import url("reset.css");
-@import url("./Components/alert/alert.css");
-@import url("./Components/avatar/avatar.css");
-@import url("./Components/badge/badge.css");
-@import url("./Components/button/button.css");
+@import url("./Components/Alert/alert.css");
+@import url("./Components/Avatar/avatar.css");
+@import url("./Components/Badge/badge.css");
+@import url("./Components/Button/button.css");
 @import url("./Components/Card/card.css");
+@import url("./Components/Grid/grid.css");
 @import url("./Components/imag/img.css");
 @import url("./Components/Input/input.css");
 @import url("./Components/List/list.css");
@@ -12,5 +13,4 @@
 @import url("./Components/snackbar/snackbar.css");
 @import url("./Components/typography/typography.css");
 @import url("./Components/colors/colors.css");
-@import url("./Components/Model/model.css");
-@import url("./Components/grid/grid.css");
+@import url("./Components/modal/modal.css");

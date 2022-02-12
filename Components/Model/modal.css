@@ -13,7 +13,7 @@
     font-weight: 500;
     padding: 0 0 1rem 0 ;
 }
-.model-btn-container {
+.modal-btn-container {
     display: flex;
     justify-content: flex-end;
 }
