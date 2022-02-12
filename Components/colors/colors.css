@@ -15,4 +15,6 @@
     --white-color: white;
     --grey-color: grey;
     --black-color: black;
+    --input-hover-color: rgb(187, 197, 209);
+    --input-border-color: rgb(167, 167, 167);
 }
