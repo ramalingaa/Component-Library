@@ -12,6 +12,9 @@
     --alert-warning: #FF9800;
     --text-color-whitesmoke: whitesmoke;
     --div-background-color: #e8eaec;
+    --white-color: white;
+    --grey-color: grey;
+    --black-color: black;
     --input-hover-color: rgb(187, 197, 209);
     --input-border-color: rgb(167, 167, 167);
 }
