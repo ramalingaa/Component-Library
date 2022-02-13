@@ -5,7 +5,7 @@
     display: inline-block;
 }
 .rating:hover {
-    color: rgb(233, 145, 31)
+    color: var(--primary-color-orange);
 }
 .rating-sm{
     margin : 0 0.2rem;
@@ -19,8 +19,8 @@
 }
 
 .rating-sm:hover {
-    color: rgb(233, 145, 31)
+    color: var(--primary-color-orange);
 }
 .rating-lg:hover {
-    color: rgb(233, 145, 31)
+    color: var(--primary-color-orange);
 }

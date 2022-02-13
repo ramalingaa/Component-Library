@@ -34,7 +34,7 @@
     font-size: 3rem;
     line-height:3.5rem;
     font-weight: 900;
-    color: #333;
+    color: var(--grey-color);
     max-width: 700px;
     margin: auto;
     width: 80%;
@@ -49,11 +49,11 @@
 
 .btn-primary {
     background-color: var(--primary-color-blue);
-    color: whitesmoke;
+    color: var(--text-color-whitesmoke);
 }
 .btn-primary:hover {
     background-color: var(--primary-color-blue);
-    color: whitesmoke;
+    color: var(--text-color-whitesmoke);
     
 }
 

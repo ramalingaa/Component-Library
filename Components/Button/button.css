@@ -141,21 +141,3 @@ with icons */
     opacity: 0.8;
 }
 
-/* alert classes starts here */
-
-.primary{
-    background-color:var(--alert-primary);
-    color: var(--text-color-whitesmoke);
-}
-.error{
-    background-color:var(--alert-error);
-    color: var(--text-color-whitesmoke);
-}
-.success{
-    background-color:var(--alert-success);
-    color: var(--text-color-whitesmoke);
-}
-.warning{
-    background-color:var(--alert-warning);
-    color: var(--text-color-whitesmoke);
-}
