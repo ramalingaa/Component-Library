@@ -1,19 +1,18 @@
-.badge-container{
+.badge-container {
     position: relative;
     background-color: transparent;
     padding: 1rem;
     display: inline-block;
 }
-.badge-icon{
+.badge-icon {
     font-size: 1.5rem;
-
 }
-.badge-text{
+.badge-text {
     background-color: var(--primary-color-orange);
     border-radius: 50%;
     padding: 0.3rem;
     position: absolute;
     top: 0;
-    right: 0.31rem;
-    font-size: 0.625rem;
+    right: 0.3rem;
+    font-size: 0.6rem;
 }

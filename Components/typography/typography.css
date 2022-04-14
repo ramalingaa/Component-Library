@@ -1,38 +1,38 @@
-.h1{
+.h1 {
     font-size: 3rem;
     line-height:4rem;
 }
 
-.h2{
+.h2 {
     font-size: 2rem;
     line-height:3rem;
 }
-.h3{
+.h3 {
     font-size: 1.5rem;
-    line-height:2.25rem
+    line-height:2.3rem
 }
-.h4{
+.h4 {
     font-size: 1rem;
     line-height:1.5rem;
 }
-.h5{
+.h5 {
     font-size: 0.5rem;
     line-height:1rem;
 }
 
-.fw-3{
+.fw-3 {
     font-weight: 300;
 }
-.fw-4{
+.fw-4 {
     font-weight: 400;
 }
-.fw-6{
+.fw-6 {
     font-weight: 600;
 }
-.fw-7{
+.fw-7 {
     font-weight: 700;
 }
-.fw-9{
+.fw-9 {
     font-weight: 900;
 }
 .text-xl {
@@ -45,7 +45,7 @@
 }
 .text-medium {
     font-size: 1.5rem;
-    line-height:2.25rem
+    line-height:2.3rem
 }
 .text-normal {
     font-size: 1rem;
@@ -57,13 +57,13 @@
 }
 
 .br-s {
-    border-radius: 0.3125rem;
+    border-radius: 0.3rem;
 }
 .br-m {
-    border-radius: 0.625rem
+    border-radius: 0.6rem
 }
 .br-l {
-    border-radius: 0.9375rem
+    border-radius: 0.9rem
 }
 .br-f {
     border-radius: 999rem;

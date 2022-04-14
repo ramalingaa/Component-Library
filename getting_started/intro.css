@@ -8,7 +8,7 @@
 .example-container {
     padding: 1rem;
     background-color: var(--div-background-color);
-    border-radius: 0.31rem;
+    border-radius: 0.3rem;
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -16,6 +16,13 @@
     position: relative;
     flex-wrap: wrap;
 
+}
+.example-iframe {
+    width: 100%;
+    height: 157px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
 }
 .example-vertical {
     display: flex;
@@ -28,7 +35,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-.main-wrapper > p{
+.main-wrapper > p {
     padding: 0.6rem 0 1rem;
 }
 .main-wrapper > img {
@@ -76,7 +83,7 @@ a{
 
 /* responsive css starts here */
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:900px) {
     .side-bar {
         display: none;
     }
@@ -93,7 +100,7 @@ a{
     }
     .h2 {
         font-size: 1.8rem;
-        line-height: 2.25rem;
+        line-height: 2.3rem;
         font-weight: bold;
     }
     .h3 {
@@ -109,7 +116,7 @@ a{
 .conclusion-hr-link {
     margin: 1rem 0;
 }
-@media only screen and (max-width:721px){
+@media only screen and (max-width:721px) {
     .side-bar {
         display: none;
     }
@@ -146,7 +153,7 @@ a{
     }
 }
 
-@media only screen and (max-width:410px){
+@media only screen and (max-width:410px) {
     .side-bar {
         display: none;
     }

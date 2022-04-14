@@ -5,7 +5,7 @@
     min-width: 4rem;
     height: max-content;
     border: 0;
-    border-radius: 0.31rem;
+    border-radius: 0.3rem;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
@@ -71,7 +71,7 @@ with icons */
 
 /* button link */
 
-.btn-link{
+.btn-link {
     text-decoration: none;
     color: inherit;
     
@@ -80,10 +80,10 @@ with icons */
 
 /* floating action buttons */
 
-.btn-icon-fab{
+.btn-icon-fab {
     font-size: 1.5rem;
 }
-.btn-fab{
+.btn-fab {
     border: 0;
     padding: 1rem;
     border-radius: 50%;
@@ -111,7 +111,7 @@ with icons */
 }
 
 /* fab button extended */
-.btn-Nicon-fab-extended{
+.btn-Nicon-fab-extended {
     display: none;
 }
 .extended {
@@ -129,7 +129,7 @@ with icons */
 
 /* fab button extended with icon */
 
-.btn-icon-fab-extended{
+.btn-icon-fab-extended {
     padding: 0 0.8rem 0 0;
 }
 

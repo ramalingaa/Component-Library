@@ -1,4 +1,4 @@
-.rating{
+.rating {
     margin : 0 0.2rem;
     font-size: 1.5rem;
     cursor: pointer;
@@ -7,12 +7,12 @@
 .rating:hover {
     color: var(--primary-color-orange);
 }
-.rating-sm{
+.rating-sm {
     margin : 0 0.2rem;
     font-size: 1rem;
     cursor: pointer;
 }
-.rating-lg{
+.rating-lg {
     margin : 0 0.2rem;
     font-size: 2rem;
     cursor: pointer;

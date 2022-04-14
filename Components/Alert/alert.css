@@ -1,23 +1,23 @@
 
-.alert{
+.alert {
     padding: 1rem 1.5rem;
-    border-radius: 0.31rem;
+    border-radius: 0.3rem;
     width: 95%;
     margin: auto;
 }
-.primary{
+.primary {
     background-color:var(--alert-primary);
     color: var(--text-color-whitesmoke);
 }
-.error{
+.error {
     background-color:var(--alert-error);
     color: var(--text-color-whitesmoke);
 }
-.success{
+.success {
     background-color:var(--alert-success);
     color: var(--text-color-whitesmoke);
 }
-.warning{
+.warning {
     background-color:var(--alert-warning);
     color: var(--text-color-whitesmoke);
 }

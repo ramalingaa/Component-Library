@@ -1,21 +1,21 @@
-.avatar{
+.avatar {
     border-radius: 50%;
-    width: 3.125rem;
-    height: 3.125rem;
+    width: 3.2rem;
+    height: 3.2rem;
     object-fit: cover;
 }
-.sm{
-    width: 3.125rem;
-    height: 3.125rem;
+.sm {
+    width: 3.2rem;
+    height: 3.2rem;
 }
-.md{
-    width: 4.735rem;
-    height: 4.735rem;
+.md {
+    width: 4.8rem;
+    height: 4.8rem;
 }
-.lg{
-    width: 6.25rem;
-    height: 6.25rem;
+.lg {
+    width: 6.3rem;
+    height: 6.3rem;
 }
-.square{
-    border-radius: 0.31rem;
+.square {
+    border-radius: 0.3rem;
 }

@@ -26,7 +26,7 @@ ul.lists>li {
     color: var(--text-hover-primary);
     
 }
-.list-title{
+.list-title {
     padding: 0.6rem 1rem;
     border-bottom: 1px solid var(--border-color-white);
     font-weight: 700;

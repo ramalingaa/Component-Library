@@ -1,4 +1,4 @@
-.empty-box{
+.empty-box {
     width: 100%;
     height: 20rem;
     border: 1px solid var(--grey-color);
@@ -13,7 +13,7 @@
     bottom: 5%;
     left: 5%;
     right: 5%;
-    z-index: 9999;
+    z-index: 1;
 }
 .toastbar {
     background-color: var(--toast-background) ;
@@ -23,7 +23,7 @@
     bottom: 5%;
     left: 5%;
     right: 5%;
-    z-index: 9999;
+    z-index: 1;
     display:flex;
     justify-content: space-between;
 }

@@ -1,17 +1,17 @@
-.input-group{
+.input-group {
     display: flex;
     flex-direction: column;
-    gap: 0.625rem;
+    gap: 0.6rem;
     width: 100%;
 }
-.i-text{
+.i-text {
     padding: 0.5rem;
     border: 1px solid var(--input-border-color);
 }
 .i-text:focus {
     outline: 1px solid var(--input-hover-color);
 }
-.err{
+.err {
     color: var(--alert-error);
 }
 .i-error {
@@ -27,7 +27,7 @@
     justify-content: center;
     gap: 2rem;
 }
-.radio > label>input{
+.radio > label>input {
     margin: 0 0.5rem;
 }
 .disabled {
@@ -40,9 +40,9 @@
 .input-checkbox {
      width: 1rem;
      height: 1rem;
-     border-radius: 0.31rem;
+     border-radius: 0.3rem;
      vertical-align: baseline;
  }
-.checkbox > label>input{
+.checkbox > label>input {
     margin: 0 0.5rem;
 }
